@@ -3,8 +3,12 @@ function Ticket(age, film, day) {
   this.film = film;
   this.day = day;
 }
-$(document).ready(function() {
 
-
-
-});
+// function Age {
+//
+// }
+// $(document).ready(function() {
+//
+//
+//
+// });
