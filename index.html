@@ -18,9 +18,9 @@
           <form id="new-ticket">
             <h3>Age:</h3>
             <select id="age" class="form-control">
-              <option value="5">Adult</option>
-              <option value="12">Child</option>
-              <option value="20">Senior</option>
+              <option value="20">Adult</option>
+              <option value="5">Child</option>
+              <option value="12">Senior</option>
             </select><br>
             <h3>Film:</h3>
             <select id="film" class="form-control">
@@ -40,13 +40,17 @@
             </select><br>
             <h3>Time:</h3>
             <select id="time" class="form-control">
-              <option value="20">Matinee</option>
-              <option value="1">Evening</option>
-              <option value="1">Night</option>
+              <option value=1>Matinee</option>
+              <option value=5>Evening</option>
+              <option value=20>Night</option>
             </select><br>
 
             <button type="submit" class="btn btn-primary btn-lg">Purchase</button>
           </form>
+          <div id="result">
+            <h1>$<span id="print"></span></h1>
+
+          </div>
         </div>
       </div>
     </div>
