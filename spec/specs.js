@@ -5,4 +5,5 @@ describe('Ticket', function(){
     expect(testTicket.film).to.equal("Kill Bill");
     expect(testTicket.day).to.equal("Friday");
   });
+  
 });
