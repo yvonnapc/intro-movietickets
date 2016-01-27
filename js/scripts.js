@@ -22,10 +22,10 @@ $(document).ready(function() {
   $("form#new-ticket").submit(function(event){
     event.preventDefault();
 
-    var inputtedAge = parseInt($("input#age").val());
-    var inputtedFilm = $("input#film").val();
-    var inputtedDay = $("input#day").val();
-    var inputtedTime = parseInt($("input#time").val());
+    var inputtedAge = parseInt($("#age").val());
+    var inputtedFilm = $("#film").val();
+    var inputtedDay = $("#day").val();
+    var inputtedTime = parseInt($("#time").val());
     var newTicket = new Ticket (inputtedAge, inputtedFilm, inputtedDay, inputtedTime);
     var totalPrice = newTicket.findPrice();
 console.log(newTicket);
