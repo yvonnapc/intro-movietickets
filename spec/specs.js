@@ -5,5 +5,7 @@ describe('Ticket', function(){
     expect(testTicket.film).to.equal("Kill Bill");
     expect(testTicket.day).to.equal("Friday");
   });
-  
+
 });
+
+//Looks like your spec testing only inspects your object inspector, not any math for calculating ticket price
